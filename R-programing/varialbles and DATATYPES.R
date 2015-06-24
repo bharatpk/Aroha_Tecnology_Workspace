@@ -17,3 +17,4 @@ a
 
 levels(a)
 nlevels(a)
+rm(list = ls())
