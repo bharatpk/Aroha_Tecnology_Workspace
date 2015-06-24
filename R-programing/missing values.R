@@ -3,3 +3,4 @@ a[2]<-NA
 a
 is.na('a')
 a
+a[!is.na(a)]
