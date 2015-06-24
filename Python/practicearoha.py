@@ -1,38 +1,38 @@
-'''
+import urllib2
+from bs4 import BeautifulSoup
 
-import sys
-with open("content.txt" ,'r+') as f:
-    for line in f:
-        if not line.isspace():
-            sys.stdout.write(line) 
-            f.write(line)
+ 
+
+FH=open('content.txt','w+')
+def grab(): 
+          
+            
             
 
-'''
-'''
-import re
-FH=open("content.txt",'r')
-a=FH.read()
-with open("content.txt" ,'r+') as f:
-    for line in f:
-        if re.match(r'^\s*$', line):
-            print line
-'''            
-'''with open("content.txt" ,'r+') as f:
-    for line in f:
-        print line                 
 
-'''
-
-from __future__ import division  
-import nltk, re, pprint
-from nltk import word_tokenize
-
-from urllib import request
-
-raw = response.read().decode('utf8')
-type(raw)
-
-len(raw)
-1176893
-raw[:75]b
+            url="http://www.co.middlesex.nj.us/Government/Departments/Admin/Pages/default.aspx"
+            opener=urllib2.build_opener()
+            opener.addheaders=[('user_agent','Chrome/43.0.2357.124')]
+            response=opener.open(url)
+            soup=BeautifulSoup(response)
+            headding= soup.title.string
+            FH.writelines(headding)
+                        
+            for add in soup.findAll("div",{'class':'col-xs-12'}):
+                        content1= (add.get_text().encode('utf-8'))
+                       
+                        
+            #for add in soup.findAll("div",{'class':'col-md-12'}):
+                        #content2= (add.get_text().encode('utf-8'))            
+                        FH.writelines(content1)
+                       
+                       
+                        
+                        #FH.writelines(content2) 
+                        
+            FH.close() 
+            
+            #lines = open('content.txt').readlines()
+            #open('newfile.txt', 'w').writelines(lines[3:-1])
+            
+grab() 
