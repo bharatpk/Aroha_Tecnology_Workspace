@@ -14,7 +14,7 @@ for lin in iter(fh1):
                       
                         
                         
-                        FH=open('content.txt','a')
+                        FH=open('content.txt','wb')
             
                         url=line
                         opener=urllib2.build_opener()
@@ -23,13 +23,14 @@ for lin in iter(fh1):
                         soup=BeautifulSoup(response)
                         headding= soup.title.string
                         FH.writelines(headding)
-                                    
+                        
                         for add in soup.findAll("div",{'class':'col-xs-12'}):
                                     content1= (add.get_text().encode('utf-8'))
                                    
                                     
                                   
                                     FH.writelines(content1)
+                                    
                                    
                                    
                                     

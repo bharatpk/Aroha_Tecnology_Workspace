@@ -42,11 +42,7 @@ def main():
                     except Exception ,e:
                         print link
                         pass
-                    #print linksource
-                    #code.writelines(linksource)
-                    #content = re.findall(r'(<div class="contact-info">.*?</div>)',linksource)              #what is the reg expresion 
-                    #print content
-                else:
+                    
                     
                     pass
                     

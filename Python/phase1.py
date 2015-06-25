@@ -6,7 +6,6 @@ print htmlfile
 '''
 
 import urllib
-
 import mechanize
 FH=open("bpk.txt",'a')
 baseurl = "http://www.co.middlesex.nj.us"
