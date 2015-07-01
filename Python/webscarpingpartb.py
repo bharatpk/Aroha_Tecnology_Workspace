@@ -2,10 +2,10 @@ import urllib2
 from bs4 import BeautifulSoup
 
  
-delimeter='_______________________________'
+
 fh1 = open('links.txt','r+')
 for lin in iter(fh1):
-            line = lin.encode('ascii','ignore')           
+            line = lin           
             print line
             
 
@@ -14,7 +14,7 @@ for lin in iter(fh1):
                       
                         
                         
-                        FH=open('content.txt','a')
+                        FH=open('content.txt','wb')
             
                         url=line
                         opener=urllib2.build_opener()
@@ -25,15 +25,16 @@ for lin in iter(fh1):
                         FH.writelines(headding)
                         
                         for add in soup.findAll("div",{'class':'col-xs-12'}):
-                                    content1= (add.get_text().encode('utf-8'))  # Fetching the content using div tag 
+                                    content1= (add.get_text().encode('utf-8'))
                                    
                                     
                                   
                                     FH.writelines(content1)
+                                    
                                    
                                    
                                     
-                        FH.writelines('\n'+delimeter+'\n')          
+                                  
                                     
                         FH.close() 
                         
@@ -41,11 +42,6 @@ for lin in iter(fh1):
                         
                         
             grab(line) 
-            
-          
-           
-            
-            
 fh1.close()            
             
 print 'Task Completed'
