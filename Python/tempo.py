@@ -8,9 +8,9 @@ def grab():
                       
                         
                         
-                        FH=open('content.txt','w')
+                        FH=open('TRIAL.txt','w')
             
-                        url="http://www.co.middlesex.nj.us/Government/Departments/Finance/Pages/default.aspx"
+                        url="http://www.co.middlesex.nj.us/Government/Departments/IM/Pages/default.aspx"
                         opener=urllib2.build_opener()
                         opener.addheaders=[('user_agent','Chrome/43.0.2357.124')]
                         response=opener.open(url)

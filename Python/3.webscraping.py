@@ -2,7 +2,7 @@ import urllib2
 from bs4 import BeautifulSoup
 
  
-delimeter='_______________________________'
+#delimeter='_______________________________'
 fh1 = open('links.txt','r+')
 for lin in iter(fh1):
             line = lin.encode('ascii','ignore')           
@@ -33,7 +33,7 @@ for lin in iter(fh1):
                                    
                                    
                                     
-                        FH.writelines('\n'+delimeter+'\n')          
+                       # FH.writelines('\n'+delimeter+'\n')          
                                     
                         FH.close() 
                         
