@@ -1,4 +1,34 @@
+'''
+import string
+from itertools import ifilter, imap
+FH=open("TRIAL1.txt",'r')
+Fh = open('TRIAL1_NEW_DEVELOPED.txt','a')
+my_list=[]
 
+for line in FH:
+	
+	b =line.splitlines()
+	# Good
+	
+	if b==['']:
+		
+		
+		
+	else:
+		e = my_list.extend(b)
+		print e
+		
+		
+		
+	
+		
+	
+	
+	
+Fh.close()
+
+FH.close()
+'''
 
 
 import string
@@ -32,11 +62,7 @@ td8 = str(student)
 str1=','.join(student)
 FH.close()
 FH1 = open('TRIAL2.txt','w+')
-str2= str1.strip(',')
-str3 =str2.rstrip("")
-str4=str3.rstrip(',')
-str7=str4.strip(',')
-FH1.writelines(str7.lstrip())
+FH1.writelines(str1)
 
 
 
@@ -56,137 +82,6 @@ print student
 
 	
 	    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
