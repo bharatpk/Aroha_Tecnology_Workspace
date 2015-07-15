@@ -13,14 +13,14 @@ for item in json:
 
 
 '''
-
+'''
 import csv
 import sys
 import json
 
 #EDIT THIS LIST WITH YOUR REQUIRED JSON KEY NAMES
 fieldnames=[1,2,3,4,5,6,7,8]
-filename='TRIAL2.txt'
+filename='result.txt'
 
 def convert(filename):
   csv_filename = filename
@@ -31,11 +31,27 @@ def convert(filename):
   print "Saving JSON to file: ",json_filename
   jsonf = open(json_filename,'w')
   data = json.dumps([r for r in csv_reader])
-  jsonf.write(data)
+  jsonf.writelines(data)
+  
+  
   f.close()
   jsonf.close()
 convert(filename)
 
+'''
 
+#!/usr/bin/python
+import demjson
+data = []
+fh =open('result.txt','r')
+for line  in fh:
+    
+    
+
+    json = demjson.encode(line).decode('utf-8','ignore')
+    data.extend(json)
+    
+j = "".join(data)
+print str(j)
       
   

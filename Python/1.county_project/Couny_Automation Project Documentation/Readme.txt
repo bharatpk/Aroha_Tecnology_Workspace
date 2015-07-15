@@ -1,0 +1,1 @@
+There are two kind of approaches  we have followed to impliment the same project .please read readme.txt files in each folder to get to know each of them .
