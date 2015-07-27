@@ -1,0 +1,32 @@
+ East Brunswick Township,POLICE EMERGENCY,911
+ East Brunswick Township,POLICE NON-EMERGENCY,732-390-6900
+ East Brunswick Township,Administration,732-390-6810
+ East Brunswick Township,Assessing,732-390-6845
+ East Brunswick Township,Clerk's Office,732-390-6850
+ East Brunswick Township,Construction Inspection,732-390-6875
+ East Brunswick Township,Court,732-390-6915
+ East Brunswick Township,Finance,732-390-6860
+ East Brunswick Township,Accounts Payable,732-390-6855
+ East Brunswick Township,Payroll,732-390-6849
+ East Brunswick Township,Fire Companies,732-257-1505
+ East Brunswick Township,East Brunswick Fire District I,732-254-2418
+ East Brunswick Township,East Brunswick Independent Fire District II,732-238-1966
+ East Brunswick Township,Brookview Volunteer Fire Company,732-390-6820
+ East Brunswick Township,Human Resources,732-390-6865
+ East Brunswick Township,Information Technology,732-390-6950
+ East Brunswick Township,Library,732-390-6836
+ East Brunswick Township,Parking Utility,732-390-6806
+ East Brunswick Township,Parks,732-390-6870
+ East Brunswick Township,Planning and Engineering,732-390-6916
+ East Brunswick Township,Police Front Desk,732-390-6960
+ East Brunswick Township,Animal Control,732-390-6922
+ East Brunswick Township,Police Records,732-390-6884
+ East Brunswick Township,Public Works,732-390-6984
+ East Brunswick Township,Garbage,732-390-6797
+ East Brunswick Township,Recreation,732-390-6833
+ East Brunswick Township,Crystal Springs,732-390-6984
+ East Brunswick Township,Recycling,732-390-6835
+ East Brunswick Township,Revenue,732-390-6824
+ East Brunswick Township,Tax Billing,732-390-6896
+ East Brunswick Township,Water and Sewer Billing,732-257-8313
+ East Brunswick Township,Senior Center,732-257-1878

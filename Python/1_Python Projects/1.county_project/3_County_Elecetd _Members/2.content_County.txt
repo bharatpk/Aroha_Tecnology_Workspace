@@ -1,0 +1,590 @@
+
+
+
+
+            Elected Officials
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ronald G. Rios
+Freeholder Director
+Profile
+
+
+
+
+
+
+
+
+
+Carol Bellante
+Freeholder                               Deputy Director
+Profile
+
+
+
+
+
+
+
+Kenneth Armwood
+Freeholder
+Profile
+
+
+
+
+
+
+
+Charles Kenny
+Freeholder
+Profile
+
+
+
+
+
+
+
+H. James Polos
+Freeholder
+Profile
+
+
+
+
+
+
+
+Charles E. Tomaro
+Freeholder
+Profile
+
+
+
+
+
+
+
+Blanquita B. Valenti
+Freeholder
+Profile
+
+
+
+Constitutional Officers
+
+
+
+
+Mildred Scott
+Middlesex County Sheriff
+Profile
+
+
+
+
+
+
+
+Elaine M. Flynn
+Middlesex County Clerk
+Profile
+
+
+
+
+
+
+
+Kevin J. Hoagland
+Middlesex County Surrogate
+Profile
+
+
+
+
+
+
+
+
+Back to top
+
+
+
+
+
+                Index
+                    
+
+
+                Contact Us
+                    
+
+
+                Request for Public Records
+                    
+
+
+                News
+                    
+
+
+More
+
+
+
+
+
+                 Copyright 2014
+
+
+
+
+
+Middlesex
+
+
+
+
+                                        County at a Glance
+                                    
+
+
+
+                                        Arts & Culture
+                                    
+
+
+
+                                        Education
+                                    
+
+
+
+                                        Health Care
+                                    
+
+
+
+                                        History
+                                    
+
+
+
+                                        Municipalities
+                                    
+
+
+
+                                        Parks & Recreation
+                                    
+
+
+
+                                        Road, Rail and Shipping
+                                    
+
+
+
+                                        Statistics & Demographics
+                                    
+
+
+
+
+
+
+
+Residents
+
+
+
+
+                                        Aging & Disabled Services
+                                    
+
+
+
+                                        Employment & Education
+                                    
+
+
+
+                                        Family & Children
+                                    
+
+
+
+                                        Health Services
+                                    
+
+
+
+                                        Online Services
+                                    
+
+
+
+                                        MCAT Transportation
+                                    
+
+
+
+                                        Parks & Recreation
+                                    
+
+
+
+                                        Public Safety
+                                    
+
+
+
+                                        Recycling Programs
+                                    
+
+
+
+                                        Tax Appeals
+                                    
+
+
+
+                                        Veterans Services
+                                    
+
+
+
+                                        Voting Information
+                                    
+
+
+
+
+
+
+
+Business
+
+
+
+
+                                        Business Resources
+                                    
+
+
+
+                                        Economic Development Business Portal
+                                    
+
+
+
+                                        Municipalities
+                                    
+
+
+
+                                        Permits & Certificates
+                                    
+
+
+
+                                        Vendor and Bid Opportunities
+                                    
+
+
+
+                                        Workforce Investment Board
+                                    
+
+
+
+
+
+
+
+Visitors
+
+
+
+
+                                        Arts & Culture
+                                    
+
+
+
+                                        History
+                                    
+
+
+
+                                        Parks & Recreation
+                                    
+
+
+
+                                        Getting Around
+                                    
+
+
+
+                                        Health & Safety
+                                    
+
+
+
+
+
+
+
+Government
+
+
+
+
+                                        Elected Officials
+                                    
+
+
+
+                                        Freeholder Meetings
+                                    
+
+
+
+                                        Freeholder Meeting Video Archive
+                                    
+
+
+
+                                        Departments
+                                    
+
+
+
+                                        Directory
+                                    
+
+
+
+                                        Federal & State Officials
+                                    
+
+
+
+                                        Financial Information
+                                    
+
+
+
+                                        Municipalities
+                                    
+
+
+
+                                        News
+                                    
+
+
+
+
+
+
+
+Online Services
+
+
+
+
+
+
+
+
+
+Privacy Policy   |                   
+                Terms of Use
+
+
+
+
+
+
+Close
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//<![CDATA[
+var _spFormDigestRefreshInterval = 1440000;function loadMDN2() { EnsureScript('MDN.js', typeof(loadFilterFn), null); }
+function loadMDN1() { ExecuteOrDelayUntilScriptLoaded(loadMDN2, 'sp.ribbon.js'); }
+_spBodyOnLoadFunctionNames.push('loadMDN1');
+function _spNavigateHierarchyEx(nodeDiv, dataSourceId, dataPath, url, listInContext, type, additionalQString) {
+    SetAdditionalNavigateHierarchyQString(additionalQString);
+    g_originalSPNavigateFunc(nodeDiv, dataSourceId, dataPath, url, listInContext, type);
+}
+
+g_originalSPNavigateFunc = _spNavigateHierarchy;
+_spNavigateHierarchy = _spNavigateHierarchyEx;
+
+function EnsureScripts(scriptInfoList, finalFunction)
+{
+if (scriptInfoList.length == 0)
+{
+finalFunction();
+}
+else
+{
+var scriptInfo = scriptInfoList.shift();
+var rest = function () { EnsureScripts(scriptInfoList, finalFunction); };
+var defd;
+try
+{
+eval('defd = typeof(' + scriptInfo[1] + ');');
+}
+catch (e)
+{
+defd = 'undefined';
+}
+if (scriptInfo[2])
+{
+EnsureScript(scriptInfo[0], defd, null);
+ExecuteOrDelayUntilScriptLoaded(rest, scriptInfo[0]);
+}
+else
+{
+EnsureScript(scriptInfo[0], defd, rest);
+}
+}
+}
+function PublishingRibbonUpdateRibbon()
+{
+var pageManager = SP.Ribbon.PageManager.get_instance();
+if (pageManager)
+{
+pageManager.get_commandDispatcher().executeCommand('appstatechanged', null);
+}
+}var _fV4UI = true;
+function _RegisterWebPartPageCUI()
+{
+    var initInfo = {editable: false,isEditMode: false,allowWebPartAdder: false,listId: "{14e6d1b8-2e5b-4eaa-aeb9-85dedad5c871}",itemId: 1,recycleBinEnabled: true,enableMinorVersioning: true,enableModeration: true,forceCheckout: true,rootFolderUrl: "\u002fGovernment\u002fElectedOfficials\u002fPages",itemPermissions:{High:16,Low:196675}};
+    SP.Ribbon.WebPartComponent.registerWithPageManager(initInfo);
+    var wpcomp = SP.Ribbon.WebPartComponent.get_instance();
+    var hid;
+    hid = document.getElementById("_wpSelected");
+    if (hid != null)
+    {
+        var wpid = hid.value;
+        if (wpid.length > 0)
+        {
+            var zc = document.getElementById(wpid);
+            if (zc != null)
+                wpcomp.selectWebPart(zc, false);
+        }
+    }
+    hid = document.getElementById("_wzSelected");
+    if (hid != null)
+    {
+        var wzid = hid.value;
+        if (wzid.length > 0)
+        {
+            wpcomp.selectWebPartZone(null, wzid);
+        }
+    }
+}
+ExecuteOrDelayUntilScriptLoaded(_RegisterWebPartPageCUI, "sp.ribbon.js"); var __wpmExportWarning='This Web Part Page has been personalized. As a result, one or more Web Part properties may contain confidential information. Make sure the properties contain information that is safe for others to read. After exporting this Web Part, view properties in the Web Part description file (.WebPart) by using a text editor such as Microsoft Notepad.';var __wpmCloseProviderWarning='You are about to close this Web Part.  It is currently providing data to other Web Parts, and these connections will be deleted if this Web Part is closed.  To close this Web Part, click OK.  To keep this Web Part, click Cancel.';var __wpmDeleteWarning='You are about to permanently delete this Web Part.  Are you sure you want to do this?  To delete this Web Part, click OK.  To keep this Web Part, click Cancel.';//]]>
+
+
+// <![CDATA[
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/jquery-1.10.2.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/jquery-ui-1.10.4.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/plugins.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/all.js?v=0"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/sub.js?v=0"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/jquerycookie.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/fontresizing.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/knockout-3.0.0.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/knockout-jqueryui.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/jquery.spservices-2014.01.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/camljs.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/moment.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/vendor/linq.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/webparts/serviceswp/datacontext.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/webparts/serviceswp/servicesmenuviewmodel.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/webparts/featurerotator/datacontext.js"></' + 'script>');
+document.write('<script type="text/javascript" src="/_layouts/middlesex.internet.branding/js/webparts/featurerotator/featurerotatorviewmodel.js"></' + 'script>');
+// ]]>
+
+RegisterSod("sp.core.js", "\u002f_layouts\u002fsp.core.js?rev=7ByNlH\u00252BvcgRJg\u00252BRCctdC0w\u00253D\u00253D");
+RegisterSod("sp.res.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252ERes\u0026rev=b6\u00252FcRx1a6orhAQ\u00252FcF\u00252B0ytQ\u00253D\u00253D");
+RegisterSod("sp.ui.dialog.js", "\u002f_layouts\u002fsp.ui.dialog.js?rev=IuXtJ2CrScK6oX4zOTTy\u00252BA\u00253D\u00253D");RegisterSodDep("sp.ui.dialog.js", "sp.core.js");RegisterSodDep("sp.ui.dialog.js", "sp.res.resx");
+RegisterSod("sp.runtime.js", "\u002f_layouts\u002fsp.runtime.js?rev=9sKdsC9N6p2BiRk3313M7Q\u00253D\u00253D");RegisterSodDep("sp.runtime.js", "sp.core.js");RegisterSodDep("sp.runtime.js", "sp.res.resx");
+RegisterSod("sp.js", "\u002f_layouts\u002fsp.js?rev=qBNQA0vLC3xm6SE69K2hzw\u00253D\u00253D");RegisterSodDep("sp.js", "sp.core.js");RegisterSodDep("sp.js", "sp.runtime.js");RegisterSodDep("sp.js", "sp.ui.dialog.js");RegisterSodDep("sp.js", "sp.res.resx");
+RegisterSod("cui.js", "\u002f_layouts\u002fcui.js?rev=k\u00252B4HtUzT9\u00252B3mSycgD7gPaQ\u00253D\u00253D");
+RegisterSod("inplview", "\u002f_layouts\u002finplview.js?rev=lxCL6dT9E0o\u00252F9jNw7YlGng\u00253D\u00253D");RegisterSodDep("inplview", "sp.js");
+RegisterSod("ribbon", "\u002f_layouts\u002fsp.ribbon.js?rev=F\u00252BUEJ66rbXzSvpf7nN69wQ\u00253D\u00253D");RegisterSodDep("ribbon", "sp.core.js");RegisterSodDep("ribbon", "sp.js");RegisterSodDep("ribbon", "cui.js");RegisterSodDep("ribbon", "sp.res.resx");RegisterSodDep("ribbon", "sp.runtime.js");RegisterSodDep("ribbon", "inplview");
+RegisterSod("sp.ui.policy.resources.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EUI\u00252EPolicy\u00252EResources\u0026rev=YhBHGmUAGyJ3lAgSdE4V\u00252Fw\u00253D\u00253D");
+RegisterSod("mdn.js", "\u002f_layouts\u002fmdn.js?rev=gwmFFJ2\u00252FfFacqXWAqG\u00252FqKg\u00253D\u00253D");RegisterSodDep("mdn.js", "sp.core.js");RegisterSodDep("mdn.js", "sp.runtime.js");RegisterSodDep("mdn.js", "sp.js");RegisterSodDep("mdn.js", "cui.js");RegisterSodDep("mdn.js", "ribbon");RegisterSodDep("mdn.js", "sp.ui.policy.resources.resx");
+RegisterSod("sp.publishing.resources.resx", "\u002f_layouts\u002fScriptResx.ashx?culture=en\u00252Dus\u0026name=SP\u00252EPublishing\u00252EResources\u0026rev=q6nxzZIVVXE5X1SPZIMD3A\u00253D\u00253D");
+RegisterSod("sp.ui.pub.ribbon.js", "\u002f_layouts\u002fsp.ui.pub.ribbon.js?rev=RGQSBI9Dm0E345iq\u00252FxUpHg\u00253D\u00253D");
+RegisterSod("msstring.js", "\u002f_layouts\u002f1033\u002fmsstring.js?rev=QtiIcPH3HV7LgVSO7vONFg\u00253D\u00253D");
+RegisterSod("browserScript", "\u002f_layouts\u002f1033\u002fnon_ie.js?rev=f2kBY9hL5p1OItWycrU5cw\u00253D\u00253D");
+RegisterSodDep("browserScript", "msstring.js");
+
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+
+
+
+
+
+
+        /* IE11 Fix for SP2010 */
+        if (typeof UserAgentInfo !== 'undefined' && typeof UserAgentInfo.strBrowser !== 'undefined' && !window.addEventListener) {
+            UserAgentInfo.strBrowser = 1;
+        }
+    
+
+

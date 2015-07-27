@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#header {
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+}
+#nav {
+    line-height:30px;
+    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:5px;	      
+}
+#section {
+    width:350px;
+    float:left;
+    padding:10px;	 	 
+}
+#footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+   padding:5px;	 	 
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<h1>County Visualizations</h1>
+</div>
+
+<div id="nav">
+NoLink<br>
+NoLink<br>
+NoLink<br>
+</div>
+
+<div id="section">
+<script type="text/javascript" src="https://online.tableau.com/javascripts/api/tableau-2.0.0.min.js"></script>
+<script>
+
+var viz, workbook, activeSheet;
+
+ var placeholderDiv = document.getElementById("example_tablue");
+  var url = "https://10ay.online.tableau.com/t/idialabsllc/views/Variety/SATPerformance?:embed=y&:display_count=no";
+  var options = {
+    width: "1000px",
+    height: "1000px",
+    hideTabs: true,
+    hideToolbar: true,
+    onFirstInteractive: function () {  
+      workbook = viz.getWorkbook();
+      activeSheet = workbook.getActiveSheet();
+    }
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
+
+function filterSingleValue() {
+  activeSheet.applyFilterAsync(
+    "Region",
+    "The Americas",
+    tableau.FilterUpdateType.REPLACE);
+}   
+
+
+ </script>
+</div>
+
+<div id="footer">
+Copyright ©www.aroha.co.in
+</div>
+
+</body>
+</html>

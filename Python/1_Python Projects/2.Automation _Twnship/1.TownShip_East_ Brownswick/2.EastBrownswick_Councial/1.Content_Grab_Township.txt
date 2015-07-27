@@ -1,0 +1,314 @@
+
+
+	Township Council - East Brunswick, NJ
+
+
+
+
+
+
+
+
+
+
+function openWindow(url)
+{
+   var newWin = window.open(url, 'newWin');
+}
+
+
+
+
+
+
+
+
+
+Home
+About the Town
+Residents
+Schools
+Departments
+Government
+Public Safety
+Forms
+Contact Us
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Aging
+
+
+
+
+
+Boards & Commissions
+
+
+
+
+
+Construction Inspection
+
+
+
+
+
+Economic Development 
+
+
+
+
+
+Emergency Management
+
+
+
+
+
+Finance
+
+
+
+
+
+Health
+
+
+
+
+
+Human Resources, Budgeting & Purchasing 
+
+
+
+
+
+Information Technology
+
+
+
+
+
+Municipal Court
+
+
+
+
+
+Mayor & Administrator
+
+
+
+
+
+Parking Utility
+
+
+
+
+
+Planning & Engineering 
+
+
+
+
+
+Public Works
+
+
+
+
+
+Recreation, Parks & Community Services
+
+
+
+
+
+Revenue/Tax Collector
+
+
+
+
+
+Solid Waste & Recycling
+
+
+
+
+
+Tax Assessor
+
+
+
+
+
+Township Clerk
+
+
+
+
+
+Township Council
+
+
+
+
+
+Water & Sewer Utility 
+
+
+
+
+
+
+
+
+
+Departments > Township Council > Township Council
+
+Township Council
+
+
+Township Council Information & Announcements
+
+There are no items to display at this time
+
+Archives
+
+
+TOWNSHIP COUNCIL MEMBERS
+Contact Us
+
+To email Council as a Group click here
+
+To email each Council Member individually click on their Name below
+    
+To view Council member biography click on the word Bio 
+
+
+
+
+
+
+
+
+
+
+Michael Hughes
+
+Council President
+
+
+James Wendell
+
+Councilman
+
+
+
+
+Denise Contrino- Bio
+Council VicePresident
+
+
+Camille Ferraro Clark
+Councilwoman
+
+
+
+
+
+
+
+
+
+
+Michael Spadafino 
+Councilman
+
+
+
+
+
+
+
+KeyLinks
+
+
+Council Meeting Procedures & Meetings
+    
+Council Meeting Dates
+
+View the Communications Policy
+
+History of the Council 
+
+
+
+
+
+
+
+
+Minutes & Agendas
+	Read minutes from recent township meetings
+
+
+Shop East Brunswick
+	Coupons & information from local businesses
+
+
+Newsletter Signup
+	Sign up to receive the free township newsletter
+
+
+
+Nixle
+	Sign up to receive emergency notifications
+
+
+
+
+
+
+
+East Brunswick Municipal Building
+	1 Jean Walling Civic Center Drive
+	East Brunswick, NJ 08816
+	
+
+
+
+Site Map
+
+
+    Copyright  2015 East Brunswick, NJ.
+	All Rights Reserved.
+	
+	Powered by 
+
+
+
+
+
+
+_uacct = "UA-2016859-65";urchinTracker();
+
