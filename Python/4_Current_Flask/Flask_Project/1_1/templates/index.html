@@ -1,0 +1,16 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div>
+<p><a href="/logout">Click here to logout ....</a> </p>
+
+</div>
+<p>Hi this is index.html</p>
+{% for message in get_flashed_messages() %}
+{{ message }}
+{% endfor %}
+</body>
+</html>
