@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class="cantainer">
+<form action ="" method = "POST">
+username: <input type="text" name="username" placeholder = "Username" value="{{request.form.username}}"><br>
+password: <input type="password" name="password" placeholder = "Password" value="{{request.form.password}}"><br>
+<input type="submit"  value="Submit">
+</form>
+{% if error %}
+<p class ="error"><strong>Error:</strong>{{error}} </p>
+
+{% endif %}
+<p><a href="/welcome">Click here to see the Visualization ....</a> </p>
+{% for message in get_flashed_messages() %}
+{{ message }}
+{% endfor %}
+</div>
+
+</body>
+</html>
+
+
+
+
+<!--
+{% extends "base.html" %}
+
+{% block content %}
+
+<form action ="" method = "POST">
+username: <input type="text" name="username" placeholder = "Username" value="{{request.form.username}}"><br>
+password: <input type="password" name="password" placeholder = "Password" value="{{request.form.password}}"><br>
+<input type="submit"  value="Submit">
+</form>
+
+{% endblock %}
+
+
+-->

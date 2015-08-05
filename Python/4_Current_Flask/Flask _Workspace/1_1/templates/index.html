@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+<div class = "cantainer">
+<p><a href="/logout">Click here to logout ....</a> </p>
+
+
+<p>Hi this is index.html</p>
+{% for message in get_flashed_messages() %}
+{{ message }}
+{% endfor %}
+
+
+<h1>Hi here is my data from the database </h1>
+{% for post in posts %}
+<p>Title</p>{{post.title}}
+<p>Description</p>{{post.description}}
+{% endfor %}
+
+
+
+
+</div>
+
+
+</body>
+</html>
+
+
+<!--
+{% extends "base.html" %}
+ 
+{% block content %}
+<p><a href="/logout">Click here to logout ....</a> </p>
+
+{% endblock %}
+-->

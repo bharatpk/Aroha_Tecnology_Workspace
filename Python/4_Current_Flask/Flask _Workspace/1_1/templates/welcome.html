@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+<div>
+    <p>Hi <a href="/"> Clich to go home  </a></p>
+
+
+        {% for message in get_flashed_messages() %}
+        {{ message }}
+        {% endfor %}
+
+</div>
+</body>
+
+</html>
+
+
+
+
+<!--
+{% extends "base.html" %}
+
+{% block content %}
+<p>Hi <br><a href="/"> Clich to go home  </a></p>
+{% endblock %}
+
+-->
